@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>PALUMAGADA</title>
+
+  <!-- CSS Link -->
+  <link href="src/output.css" rel="stylesheet">
+  
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >UKM-KPM</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              class="block absolute right-4 lg:hidden"
+              id="hamburger"
+              name="hamburger
+              "
+              type="button"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+              id="nav-menu"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 group-hover:text-primary flex"
+                    >Tentang Kami</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section id="home" class="pt-36 pb-24">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-xl font-bold text-primary">
+              PALUMAGADA<span
+                class="block font-bold text-dark text-4xl"
+                >Apa Lu Mau Gua Ada</span
+              >
+            </h1>
+            <h2 class="font-medium text-basic text-lg mb-5">
+              Menyediakan Berbagai Keperluan Anda
+            </h2>
+            <p class="font-medium text-basic mb-10 leading-relaxed">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+              laborum voluptatem ratione ipsam, expedita possimus quo
+              aspernatur, reprehenderit doloribus neque similique sapiente
+              excepturi ex distinctio.
+              <span class="block text-dark font-bold">
+                Telusuri Lebih Lanjut
+              </span>
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:bg-orange-500 transition duration-500 ease-in-out"
+              >Hubungi Kami</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10">
+              <img
+                src="https://source.unsplash.com/500x500"
+                alt=""
+                class="mx-auto max-w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">
+              Tentang Kami
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-1 max-w-xl lg:text-4xl">
+              PALUMAGADA
+            </h2>
+            <h3 class="font-semibold text-2xl mb-5">
+              Menyediakan Kebutuhan Anda
+            </h3>
+            <p class="font-medium text-basic lg:text-lg">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+              eum porro quod fuga aliquam nulla praesentium soluta quo magni
+              error? Consectetur eos cupiditate animi itaque.
+            </p>
+          </div>
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Layanan Kami
+            </h3>
+            <p class="font-medium text-base text-basic mb-6 lg:text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe,
+              impedit porro. Nulla excepturi sunt cupiditate?
+            </p>
+            <h3 class="font-semibold text-dark text-md lg:text-2xl lg:pt-5">
+              Media Sosial Kami
+            </h3>
+            <!-- Social Media -->
+            <div class="flex">
+              <div id="media-social" class="pt-2 text-4xl">
+                <!-- Instagram -->
+                <a
+                  href="#"
+                  class="text-secondary hover:text-primary transition duration-300 ease-in-out"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <!-- Youtube -->
+                <a
+                  href="#"
+                  class="text-basic hover:text-primary transition duration-300 ease-in-out"
+                  ><i class="bx bxl-youtube"></i
+                ></a>
+                <!-- Tiktok -->
+                <a
+                  href="#"
+                  class="text-basic hover:text-primary transition duration-300 ease-in-out"
+                  ><i class="bx bxl-tiktok"></i
+                ></a>
+                <!-- Whatsapp -->
+                <a
+                  href="#"
+                  class="text-basic hover:text-primary transition duration-300 ease-in-out"
+                  ><i class="bx bxl-whatsapp"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pendaftaran -->
+    <section id="pendaftaran" class="pt-12 pb-24">
+      <div class="w-full px-4 pt-24">
+        <div class="max-w-xl mx-auto text-center">
+          <h1 class="text-xl font-semibold text-primary lg:text-2xl">
+            Ingin Renovasi Rumah?
+            <span class="block font-bold text-dark text-3xl lg:text-4xl py-2"
+              >Hubungi Kami</span
+            >
+          </h1>
+          <p class="font-medium text-basic mb-10 leading-relaxed py-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            voluptate hic beatae maiores voluptas impedit.
+          </p>
+
+          <a
+            href="#"
+            class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+            >Klik Untuk Mengirim Pesan</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Galeri -->
+    <section id="galeri" class="pt-36">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Galeri</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Galeri Foto</h2>
+            <p class="font-medium text-md text-basic md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis eligendi illum totam quos excepturi eius?</p>
+          </div>
+          <hr class="my-3">
+          <div class="grid lg:grid-cols-3 gap-4">
+            <div class="rounded-xl shadow-xl overflow-hidden ">
+              <img src="https://source.unsplash.com/500x500" alt="" class="w-full hover:blur-md">
+            </div>
+            <div class="rounded-xl shadow-xl overflow-hidden ">
+              <img src="https://source.unsplash.com/500x500" alt="" class="w-full hover:blur-md">
+            </div>
+            <div class="rounded-xl shadow-xl overflow-hidden ">
+              <img src="https://source.unsplash.com/500x500" alt="" class="w-full hover:blur-md">
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Berita Acara -->
+    <section id="news" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Testimoni</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Apa Kata Mereka</h2>
+            <p class="font-medium text-md text-basic md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis eligendi illum totam quos excepturi eius?</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+              <img src="https://source.unsplash.com/360x200"  class="w-full" alt="">
+              <div class="py-8 px-6">
+                <h3 class="mb-3 font-semibold text-xl text-dark truncate">Judul 1</h3>
+                <p class="font-medium text-basic text-base mb-4 truncate">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aut laudantium et ex laboriosam, vero cupiditate. Placeat nobis aspernatur aperiam error temporibus aut quidem.</p>
+                <a href="#" class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-xl hover:opacity-80">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+              <img src="https://source.unsplash.com/360x200"  class="w-full" alt="">
+              <div class="py-8 px-6">
+                <h3 class="mb-3 font-semibold text-xl text-dark truncate">Judul 1</h3>
+                <p class="font-medium text-basic text-base mb-4 truncate">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aut laudantium et ex laboriosam, vero cupiditate. Placeat nobis aspernatur aperiam error temporibus aut quidem.</p>
+                <a href="#" class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-xl hover:opacity-80">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+              <img src="https://source.unsplash.com/360x200"  class="w-full" alt="">
+              <div class="py-8 px-6">
+                <h3 class="mb-3 font-semibold text-xl text-dark truncate">Judul 1</h3>
+                <p class="font-medium text-basic text-base mb-4 truncate">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque aut laudantium et ex laboriosam, vero cupiditate. Placeat nobis aspernatur aperiam error temporibus aut quidem.</p>
+                <a href="#" class="font-medium text-sm text-white bg-primary py-3 px-6 rounded-xl hover:opacity-80">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-3">PALUMAGADA</h2>
+            
+            <p class="">email@gmail.com</p>
+            <p class=""> Jln. Suropati Gang 9, Pesanggrahan, Kota Batu</p>
+            
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tentang Kami</h3>
+            <hr class="my-3">
+            <p class="text-slate-300 mt-3 text-justify">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sequi tempora asperiores accusamus nam adipisci non, tempore veniam beatae unde aliquid ducimus voluptatibus? Quae, tempore.
+            </p>
+
+          </div>
+          <!-- <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Link</h3>
+            <ul class="text-slate-300">
+              <li class=""><a href="#" class="inline-block text-base hover:text-primary mb-3">Beranda</a></li>
+              <li class=""><a href="#" class="inline-block text-base hover:text-primary mb-3">Tentang Kami</a></li>
+              <li class=""><a href="#" class="inline-block text-base hover:text-primary mb-3">Galeri</a></li>
+              <li class=""><a href="#" class="inline-block text-base hover:text-primary mb-3">Berita Acara</a></li>
+            </ul>
+          </div> -->
+        </div>
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="flex items-center text-white justify-center">
+            <div id="media-social" class="pt-2 text-4xl">
+              <!-- Instagram -->
+              <a
+                href="#"
+                class="text-basic hover:text-primary transition duration-300 ease-in-out"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <!-- Youtube -->
+              <a
+                href="#"
+                class="text-basic hover:text-primary transition duration-300 ease-in-out"
+                ><i class="bx bxl-youtube"></i
+              ></a>
+              <!-- Tiktok -->
+              <a
+                href="#"
+                class="text-basic hover:text-primary transition duration-300 ease-in-out"
+                ><i class="bx bxl-tiktok"></i
+              ></a>
+              <!-- Whatsapp -->
+              <a
+                href="#"
+                class="text-basic hover:text-primary transition duration-300 ease-in-out"
+                ><i class="bx bxl-whatsapp"></i
+              ></a>
+            </div>
+            </div>
+        </div>
+        <p class="font-medium text-sm text-slate-500 text-center mt-5">Dibuat oleh Bintang Bongky ❤</p>
+      </div>
+    </footer>
+</body>
+</html>
